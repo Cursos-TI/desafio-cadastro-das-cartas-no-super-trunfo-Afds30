@@ -3,9 +3,9 @@
 
 int main() {
     // --- Declaração das variáveis para a primeira carta ---
-    char estado1[3];
-    char codigo1[5];
-    char nomeCidade1[50];
+    char estado1[3];  // Para o estado (ex: A)
+    char codigo1[5]; // Para o código da carta (ex: A01)
+    char nomeCidade1[50]; // Para o nome da cidade
     unsigned long int populacao1; // População agora é unsigned long int
     float area1;
     float pib1;
@@ -15,9 +15,9 @@ int main() {
     float superPoder1;
 
     // --- Declaração das variáveis para a segunda carta ---
-    char estado2[3];
-    char codigo2[5];
-    char nomeCidade2[50];
+    char estado2[3]; // Para o estado (ex: B)
+    char codigo2[5]; // Para o código da carta (ex: A02)
+    char nomeCidade2[50]; // Para o nome da cidade
     unsigned long int populacao2; // População agora é unsigned long int
     float area2;
     float pib2;
